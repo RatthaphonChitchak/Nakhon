@@ -1,0 +1,30 @@
+.container{
+    margin: 25px;
+
+    mat-card{
+        margin: 5px;
+        width: 1200px;
+    }
+
+    .text-page{
+        font-size: 30px;
+    }
+
+    mat-toolbar{
+        height: 40px;
+    }
+
+    .img-page{
+        height: 600px;
+        width: 800px;
+    }
+
+    .detail-Pros{
+        font-size: 20px;
+        color: rgb(218, 60, 60);
+    }
+    
+    ng-image-slider{
+        width: 600px;
+    }
+}

@@ -1,1 +1,14 @@
-<p>home works!</p>
+<div class="container" fxLayout="column" fxFlex  fxLayoutAlign="center center">
+    <mat-card fxFlex fxLayout="column">
+        <mat-toolbar color="primary" style="height: px;">
+            <span class="text-page"><strong style="text-align: center;">welcome To NakhonPathomCafe"</strong></span>
+        </mat-toolbar>
+        <div fxLayoutAlign="center center">
+            <img src="../../../../assets/Photo/Home.png">
+        </div>
+        <div fxLayoutAlign="center center">
+            <ng-image-slider FxFlex [images]="imgCollection" #nav></ng-image-slider>
+        </div>
+
+    </mat-card>
+</div>

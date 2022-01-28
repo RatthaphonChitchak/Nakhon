@@ -33,6 +33,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { CafelistModule } from './modules/cafelist/cafelist.module';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 @NgModule({
@@ -72,7 +73,8 @@ import { CafelistModule } from './modules/cafelist/cafelist.module';
     MatRadioModule,
     MatAutocompleteModule,
     MatGridListModule,
-    CafelistModule
+    CafelistModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -16,8 +16,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { HomeComponent } from './home/home.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 @NgModule({
   declarations: [
+    HomeComponent,
     Cafe1Component,
     Cafe2Component,
     Cafe3Component,
@@ -37,7 +40,8 @@ import { MatButtonModule } from '@angular/material/button';
     FlexLayoutModule,
     LayoutModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    NgImageSliderModule
   ]
 })
 export class CafelistModule { }
