@@ -13,6 +13,6 @@ export class Cafe9Component implements OnInit {
   }
 
   openMap(){
-    window.open('https://goo.gl/maps/WWJiFBMuYteSqRm67');
+    window.open('https://goo.gl/maps/Xqqc3k34ZEraPjqS6');
   }
 }
